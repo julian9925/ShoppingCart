@@ -1,15 +1,15 @@
 <template name="layout">
 	{{>navbar}}
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="span2">
-				<!-- {{>yield 'categories'}} -->
+				 {{>yield 'categories'}} 
 			</div>
 			<div class="span7">
-				<!-- {{>yield 'products'}} -->
+				{{>yield 'products'}}
 			</div>
 			<div class="span3">
-				<!-- {{>yield 'cart'}} -->
+				{{>yield 'cart'}}
 			</div>
 		</div>
 	</div>
